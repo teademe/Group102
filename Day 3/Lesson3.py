@@ -46,13 +46,21 @@
 
 
 #homework
-
+#  nika homework-s ver vaketeb radgan is video rasac gulisxmob meore jgufisas, me ar maqvs, es ragaceebi viwvale magram ar gamodis
 num1=int(input("enter num1: "))
 num2=int(input("enter num2: "))
 num3=int(input("enter num3: "))
-product=num1+num2+num3
-if "num1" "num2" "num3" /2==odd_number:
-    print(product)
+
+sum=num1+num2+num3
+
+if num1 % 2 == 1 and num2 % 2 == 1 and num3 % 2 == 1:
+    print(sum)
+else:
+    print("sorry_for_the_inconvinience")
+
+
+
+
 
 
 
